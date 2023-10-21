@@ -1,0 +1,21 @@
+.graphic-bar{
+   width:100%;
+   background:#a3b2c1;
+   height:300px;
+}
+
+.graphic-bar .colunas{
+    display:flex;
+    flex-direction:row;
+    height:100%;
+}
+
+.escala-y{
+    width:100px;
+    background:#5e5e5e;
+}
+
+.graphic-bar .colunas .escala-y{
+    width:100px;
+    background:red;
+}
